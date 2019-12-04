@@ -37,7 +37,7 @@
         height: 90px;
         text-align: initial;
         margin: 0;
-        color: red;
+        color: darkblue;
         font-size: .75em;
         font-style: italic;
         font-weight: 700;
@@ -56,12 +56,12 @@
     }
     
     .box p.session {
-        color: red;
+        color: darkblue;
         font-style: italic;
     }
     
     .box a {
-        color: red;
+        color: darkblue;
         font-style: normal;
         font-weight: 500;
     }
@@ -240,7 +240,7 @@
     
     label {
         display: block;
-        color: red;
+        color: darkblue;
         font-size: 1.25em;
         margin: .5em 0em 0em .5em;
     }

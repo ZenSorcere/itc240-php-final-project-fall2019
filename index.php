@@ -42,7 +42,7 @@ if(isset($_SESSION['success'])) {
 <!-- communicate to the logged in user -->
 <?php
 if(isset($_SESSION['userName'])); ?>
-<p>Welcome <strong><?php echo $_SESSION['userName']; ?>!</strong></p>
+<p>Welcome <strong><?php echo $_SESSION['userName']; ?>,</strong></p>
 <p><a href="index.php?logout='1'" >Logout</a></p>
 
 

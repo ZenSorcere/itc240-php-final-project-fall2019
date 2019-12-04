@@ -85,7 +85,7 @@ if(count($errors) == 0) {
     mysqli_query($db, $query);
 
     $_SESSION['userName'] = $userName;
-    $_SESSION['success'] = '<em>You are now logged in</em>';
+    $_SESSION['success'] = '<em>Thank you for registering, ' .$_SESSION['userName'].'. You are now logged in.</em>';
 
     header('Location:index.php');
 
@@ -115,7 +115,7 @@ if(isset($_POST['login_user'])) {
 
     if(mysqli_num_rows($result) == 1) {
         $_SESSION['userName'] = $userName;
-        $_SESSION['success'] = 'You are now logged in!';
+        $_SESSION['success'] = 'You have successfully logged in!';
 
         header('Location:index.php');
 
