@@ -1,0 +1,178 @@
+    /* Styles for Daily.php */
+    
+    @import url('https://fonts.googleapis.com/css?family=Quicksand');
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Quicksand', sans-serif;
+        box-sizing: border-box;
+    }
+    
+    html {
+        background-color: aliceblue;
+    }
+    
+    header {
+        height: 100px;
+        background: rgba(31, 159, 218, 0.966);
+    }
+    
+    header {
+        text-align: center;
+        margin: auto;
+        line-height: 2.5em;
+    }
+    
+    nav {
+        background: lightseagreen;
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    nav ul {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    
+    nav li {
+        float: left;
+        width: 20%;
+        text-align: center;
+        list-style-type: none;
+    }
+    
+    #wrapper {
+        width: 940px;
+        margin: 0 auto;
+        /* 20px auto; */
+    }
+    
+    main {
+        /* background: lightsteelblue; */
+        height: auto;
+        width: 60%;
+        float: left;
+    }
+    
+    main ul {
+        margin-left: 1em;
+    }
+    
+    main p {
+        font-weight: 700;
+    }
+    
+    aside {
+        background: rgb(135, 215, 240);
+        height: auto;
+        width: 35%;
+        /* padding-left: 1em;  */
+        float: right;
+    }
+    
+    main li {
+        font-size: .9em;
+        margin-left: 1em;
+        margin-bottom: .5em;
+    }
+    
+    p {
+        margin: 1em;
+        /* Top-Right-Bottom-Left = (TRBL) */
+    }
+    
+    h2,
+    h3 {
+        font-weight: bold;
+        margin-left: .25em;
+        margin-top: .5em;
+        margin-bottom: .5em;
+        line-height: 1em;
+    }
+    
+    img.aside {
+        /* height: 50%; */
+        width: 110%;
+        margin-left: -1em;
+        box-shadow: 10px 10px 8px #888888;
+    }
+    
+    aside h3,
+    aside p {
+        text-align: center;
+    }
+    
+    div.content-wrap {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    footer {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        background: rgba(31, 159, 218, 0.966);
+        clear: both;
+        text-align: center;
+    }
+    
+    footer li {
+        float: left;
+        margin-left: 30px;
+        list-style-type: none;
+    }
+    /* BEGIN FORM CSS ELEMENTS */
+    
+    form {
+        margin: 1em;
+    }
+    
+    fieldset {
+        margin: 1em;
+        width: 350px;
+    }
+    
+    label {
+        display: block;
+        color: red;
+        font-size: 1.25em;
+        margin: .5em 0em 0em .5em;
+    }
+    
+    textarea,
+    input[type="text"],
+    input[type="email"] {
+        margin: .5em 0em 0em .5em;
+    }
+    
+    form li {
+        list-style-type: none;
+    }
+    
+    input[type="radio"],
+    input[type="checkbox"] {
+        background: blue;
+        margin: 0em 1em;
+    }
+    
+    input[type="submit"],
+    input[type="button"] {
+        background-color: #fff;
+        border-radius: 2px;
+        border: solid 1px #1444;
+        padding: 0.3em 0.5em;
+        margin: 1em 0em 1em 1em;
+        display: inline-block;
+    }
+    
+    span {
+        color: red;
+        display: block;
+        font-style: italic;
+        font-weight: 700;
+        margin: .5em 0em 0em .5em;
+    }
+    
+    .privacy {
+        display: inline-block;
+    }

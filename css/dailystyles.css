@@ -1,0 +1,328 @@
+    /* Styles for final-project */
+    
+    @import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Overpass', sans-serif;
+        box-sizing: border-box;
+    }
+    
+    html {
+        background-color: aliceblue;
+    }
+    
+    header {
+        height: 150px;
+    }
+    
+    .header-img {
+        background-image: url("../images/broken1a.jpg");
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    header {
+        text-align: center;
+        margin: auto;
+        line-height: 2.5em;
+        text-shadow: 0px 0px 8px #888888;
+    }
+    /* LOGIN BOX STYLES  */
+    
+    .box {
+        height: 90px;
+        text-align: initial;
+        margin: 0;
+        color: red;
+        font-size: .75em;
+        font-style: italic;
+        font-weight: 700;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        border: goldenrod 1px solid;
+        line-height: .75em;
+        background: slategray;
+    }
+    
+    .box p {
+        color: black;
+        font-style: normal;
+        font-weight: 500;
+    }
+    
+    .box p.session {
+        color: red;
+        font-style: italic;
+    }
+    
+    .box a {
+        color: red;
+        font-style: normal;
+        font-weight: 500;
+    }
+    /* END LOGIN BOX  */
+    /*  NAV SPECIFIC STYLES  */
+    
+    nav {
+        background: rgb(230, 154, 40);
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+    
+    nav ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    nav li {
+        float: left;
+        width: 20%;
+        text-align: center;
+        list-style-type: none;
+    }
+    
+    nav a {
+        text-decoration: none;
+    }
+    
+    nav li:hover {
+        background: rgb(224, 210, 13);
+    }
+    
+    .active {
+        color: rgb(50, 50, 114);
+        font-weight: bold;
+    }
+    /* END NAV CSS  */
+    
+    #wrapper {
+        width: 940px;
+        margin: 0 auto;
+    }
+    
+    main {
+        height: auto;
+        width: 60%;
+        float: left;
+    }
+    
+    main.gallery {
+        width: 100%;
+    }
+    
+    main h1 {
+        margin-top: .5em;
+    }
+    
+    main ul {
+        margin-left: 1em;
+    }
+    
+    main p {
+        font-weight: 700;
+    }
+    
+    aside {
+        background-color: lightskyblue;
+        background: radial-gradient(red, orange, yellow);
+        height: auto;
+        width: 35%;
+        float: right;
+    }
+    
+    aside.gallery {
+        width: 10%;
+    }
+    
+    main li {
+        font-size: .9em;
+        margin-left: 1em;
+        margin-bottom: .5em;
+    }
+    
+    a img {
+        margin: 1em;
+    }
+    
+    a.viewlink {
+        display: block;
+        margin: 1em;
+    }
+    
+    p {
+        margin: 1em;
+    }
+    
+    h2,
+    h3 {
+        font-weight: bold;
+        margin-left: .25em;
+        margin-top: .5em;
+        margin-bottom: .5em;
+        line-height: 1em;
+    }
+    
+    li.large {
+        font-size: larger;
+    }
+    
+    img.section {
+        width: 80%;
+        box-shadow: 10px 10px 8px #888888;
+    }
+    
+    img.aside {
+        width: 110%;
+        margin-left: -1em;
+        box-shadow: 10px 10px 8px #888888;
+    }
+    
+    img.view {
+        width: 45%;
+        float: left;
+        margin: .5em;
+        box-shadow: 10px 10px 8px #888888;
+    }
+    
+    ul.viewlist {
+        margin: 1em;
+        display: inline-block;
+    }
+    
+    p.viewdsc {
+        clear: both;
+        padding-top: 1em;
+        width: 70%;
+    }
+    
+    aside h3,
+    aside p {
+        text-align: center;
+    }
+    
+    div.content-wrap {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    footer {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        background: rgb(230, 154, 40);
+        clear: both;
+        text-align: center;
+    }
+    
+    footer li {
+        float: left;
+        margin-left: 30px;
+        list-style-type: none;
+    }
+    /* BEGIN FORM CSS ELEMENTS */
+    
+    form {
+        margin: 1em;
+    }
+    
+    fieldset {
+        margin: 1em;
+        width: 100%;
+        border: solid rgb(50, 50, 114);
+    }
+    
+    label {
+        display: block;
+        color: red;
+        font-size: 1.25em;
+        margin: .5em 0em 0em .5em;
+    }
+    
+    textarea,
+    input[type="text"],
+    input[type="email"] {
+        width: 95%;
+        margin: .5em 0em 0em .5em;
+    }
+    
+    form li {
+        list-style-type: none;
+    }
+    
+    input[type="radio"],
+    input[type="checkbox"] {
+        background: blue;
+        margin: 0em 1em;
+    }
+    
+    input[type="submit"],
+    input[type="button"] {
+        background-color: #fff;
+        border-radius: 2px;
+        border: solid 1px #1444;
+        padding: 0.3em 0.5em;
+        margin: 1em 0em 1em 1em;
+        display: inline-block;
+    }
+    
+    span {
+        color: red;
+        display: block;
+        font-style: italic;
+        font-weight: 700;
+        margin: .5em 0em 0em .5em;
+    }
+    
+    .privacy {
+        display: inline-block;
+    }
+    
+    legend {
+        font-style: italic;
+        font-size: 1.2em;
+        color: rgb(50, 50, 114);
+        padding: 0px 10px;
+    }
+    /* TABLE & GALLERY SPECIFIC ELEMENTS */
+    
+    table {
+        width: 600px;
+        margin: 20px auto;
+    }
+    
+    td {
+        width: 25%;
+        text-align: center;
+    }
+    
+    table img {
+        width: 150px;
+    }
+    
+    table.sql {
+        width: 65%;
+        margin: 0;
+    }
+    
+    .sql ul li:first-child {
+        list-style-type: none;
+        margin-left: 0;
+    }
+    
+    .sql ul li:last-child {
+        font-size: large;
+        color: red;
+    }
+    
+    .sql td {
+        text-align: left;
+        font-weight: 700;
+        padding: 1em;
+    }
